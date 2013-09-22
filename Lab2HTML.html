@@ -1,0 +1,18 @@
+<title>Google Maps API v3 Example: Directions Simple</title>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+    <!-- Copy the javascript code here if you wish to try this code. -->
+</script>    
+<div data-role="header">
+		<h1>Google Maps</h1>      
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<p>Welcome to Google Maps!!!</p>		
+	</div>
+   <div>
+    <p>Source : <input data-bind='value: start' id ='Source'/></p> 
+    <p>Destination : <input data-bind='value: end' id='Destination'/></p> 
+    <input type = 'button'  name = 'Submit' value = 'Submit' onclick = "initialize()"/>  
+    </div>
+<div id= "map_canvas" style="height: 350px; width: 400px"></div>
